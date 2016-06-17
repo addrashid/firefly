@@ -13,6 +13,7 @@ body {
 
 .carousel {
     height: 50%;
+    z-index: -1;
 }
 
 .item,
@@ -50,6 +51,7 @@ background-color: #F6AA18;
 padding: 16px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
+border-style: none;
 }
 
 .navbar-brand > img { 
@@ -128,4 +130,16 @@ padding-top: 40%;
 .glyphicon-search,
 .glyphicon-flag{
   color: black;
+}
+
+.glyphicon-plane{
+transform:rotate(90deg);
+}
+
+.btn-primary{
+  border-style: none;
+}
+
+input, button {
+    float: left;
 }
