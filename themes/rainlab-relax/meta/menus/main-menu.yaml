@@ -10,15 +10,6 @@ items:
         cmsPage: ''
         replace: '0'
     -
-        title: About
-        nesting: '0'
-        type: static-page
-        url: ''
-        code: ''
-        reference: about
-        cmsPage: ''
-        replace: '0'
-    -
         title: 'Our Chairs'
         nesting: '1'
         type: static-page
@@ -29,6 +20,50 @@ items:
         replace: '0'
     -
         title: Contact
+        nesting: ''
         type: cms-page
+        url: ''
         code: ''
         reference: contact
+        cmsPage: ''
+        replace: ''
+    -
+        title: Flights
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: flights
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Routes & Schedules'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: flights-routes-schedules
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: FlyPREMIER
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: flights-flypremier
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'

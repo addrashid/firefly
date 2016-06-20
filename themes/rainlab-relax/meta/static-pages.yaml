@@ -1,8 +1,5 @@
 static-pages:
     index: {  }
-    about:
-        about-team: {  }
-        about-facilities: {  }
     chairs:
         chairs-sofas: {  }
         chairs-high-chairs: {  }
@@ -13,3 +10,6 @@ static-pages:
         clients-announcements: {  }
         clients-newsletters: {  }
         clients-gallery: {  }
+    flights:
+        flights-flypremier: {  }
+        flights-routes-schedules: {  }
