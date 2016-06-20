@@ -1,0 +1,33 @@
+1466402503s:1218:"a:6:{s:5:"mtime";i:1465284131;s:7:"content";s:532:"<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="logo">
+                <a href="{{ 'index'|staticPage }}">
+                    <img src="{{ 'assets/images/logo.png'|theme }}" alt="House of Chairs" />
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="contact-phone">
+                <label>Call us now</label>
+                <span class="phone-number">KL5-3226</span>
+            </div>
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:532:"<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="logo">
+                <a href="{{ 'index'|staticPage }}">
+                    <img src="{{ 'assets/images/logo.png'|theme }}" alt="House of Chairs" />
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="contact-phone">
+                <label>Call us now</label>
+                <span class="phone-number">KL5-3226</span>
+            </div>
+        </div>
+    </div>
+</div>";}";
