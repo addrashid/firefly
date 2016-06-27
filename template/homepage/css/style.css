@@ -1,0 +1,264 @@
+/*!
+ * Start Bootstrap - Half Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+  height: 100%;
+  padding-top: 50px;
+}
+
+/*Carousel-slider*/
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+.carousel {
+  height: 550px;
+  margin-top: -20px;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-indicators{
+  size: 60px;
+}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+/*navbar*/
+.navbar-inverse {
+  background-color: #F6AA18;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-style: none;
+}
+
+.navbar-brand > img {
+  height: 85px;
+  width: 180px;
+  margin-top: -32px;
+}
+
+/*language selection-flag*/
+.language {
+  width: 60%;
+  height: auto;
+}
+
+/*disable selection-oku*/
+.disable{
+  max-width: 50px;
+}
+
+h4 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: #ECC278 !important;
+}
+
+h5 {
+  font-family: Arial;
+  font-size: 9px;
+  line-height: 10px;
+  margin-bottom: -10px;
+}
+
+h3 {
+  margin-top: -8px;
+  font-family: Arial;
+  font-family: 17px;
+  color: #ECC278 !important;
+}
+
+h2 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 26px;
+}
+
+/*Microsite*/
+.panel-microsite {
+  background-color: #FDF7FF;
+  width: 180px !important;
+}
+
+.panel-microsite > .panel-heading {
+  background-color: grey;
+  color: white;
+}
+
+.panel-microsite > .panel-footer {
+  background-color: grey;
+}
+
+.panel-microsite > .panel-default > .panel-body {
+  background-color: #E8E9EB;
+  border-collapse: collapse;
+  border-line: none;
+  padding: 0px;
+
+}
+th {
+    padding: 0px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td{
+  padding: 5px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.glyphicon-search,
+.glyphicon-flag {
+  color: black;
+}
+
+.glyphicon-info-sign,
+.glyphicon-remove-sign{
+  color: grey;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/*rotate glyphicon plane*/
+.glyphicon-plane{
+transform:rotate(90deg);
+}
+
+input, button {
+    float: left;
+}
+
+slide {
+  position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/*Announcement*/
+.alert-success{
+background-color: white;
+color: grey;
+text-align: center;
+border-right-style: none;
+border-left-style: none;
+}
+
+.more{
+color: red;
+}
+
+.btn-info{
+background-color: white;
+color:red;
+border-style: none;
+align:right;
+text-decoration: underline;
+}
+
+/*Form*/
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 20px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.radio{
+  color: white;
+}
+
+.panel-default{
+  background-color: #7C7B79;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.nav-tabs{
+  background-color: white;
+}
+
+btn-warning{
+  padding-right: 50px;
+}
+
+/*Flight*/
+.alignright {
+ float: right;
+ font-size: 20px;
+ color: white;
+}
+
+/*navbar*/
+.navbar-fixed-top{
+  background-color: #F6AA18;
+  border-style: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-static-top{
+  background-color: white;
+  border-style: none;
+  margin-top: -40px;
+}
+
+/*search form*/
+.has-feedback{
+  padding-top: 10px;
+}
+
+.form-control-feedback{
+  padding-top: 10px;
+}
+
+/*footer*/
+.footer{
+      background-color: #2f2f2f;
+      color: #fff;
+      width: 100%;
+  }
+
+  /*.panel-default > .media-body {
+    padding: 5px;
+  }*/
+
